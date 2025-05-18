@@ -24,3 +24,54 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.header, .footer {
+  padding: 12px;
+}
+
+.header, .left-links, .right-links {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.left-links, .right-links {
+  gap: 16px;
+}
+
+.left-links {
+  margin-right: auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  background-color: #eeeeee;
+}
+
+button {
+  padding: 10px;
+}
